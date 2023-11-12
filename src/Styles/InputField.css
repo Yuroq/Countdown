@@ -19,14 +19,14 @@
 
 @media (max-width: 599px) {
   .select {
-    padding-right: 10px;
+    padding-right: 0px;
     background-color: aliceblue;
   }
   .input-Field-Div {
     display: inline-block;
-    margin-left: 50%;
+    margin-left: 45%;
     margin-top: 90px;
-    transform: translate(-67%, -2%);
+    transform: translate(-57%, -2%);
     background-color: "aliceblue";
     width: 300px;
   }

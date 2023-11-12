@@ -39,6 +39,9 @@
   .AmPM-div select {
     width: 200px;
   }
+  .start-btn button{
+margin-left: 65px;
+  }
 }
 @media (min-width: 738px) and (max-width: 1024px) {
   .select {

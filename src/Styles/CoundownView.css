@@ -20,7 +20,7 @@
   }
   .remaining-time-divs {
     display: inline-block;
-    transform: translate(5%, -1%);
+    transform: translate(-16%, -1%);
   }
 }
 @media (min-width: 738px) and (max-width: 1024px) {
@@ -232,7 +232,7 @@
 @media (max-width: 599px) {
   .reset-button {
   padding-top: 0;
-    margin-left: 0%;
+    margin-left: -57%;
     margin-top: -110px;
     width: 34%;
     right: 0;

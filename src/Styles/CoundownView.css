@@ -1,0 +1,271 @@
+.Countdown-view {
+  margin-top: 3%;
+  width: 120%;
+  height: 700px;
+  margin-left: -10%;
+  background-color: aliceblue;
+  align-items: center;
+  justify-content: center;
+}
+.remaining-time-divs {
+  display: flex;
+}
+@media (max-width: 599px) {
+  .Countdown-view {
+    width: 115%;
+    margin-left: -5%;
+    height: 100%;
+    padding-bottom: 30px;
+  }
+  .remaining-time-divs {
+    display: inline-block;
+  }
+}
+@media (min-width: 738px) and (max-width: 1024px) {
+  .Countdown-view {
+    margin-top: 90px;
+    transform: translate(-2%, -50%);
+
+    width: 100%;
+    height: 3700px;
+    padding-bottom: 30px;
+  }
+
+  .remaining-time-divs {
+    display: inline-block;
+    transform: translate(16%, -1%);
+  }
+}
+
+/* @media (min-width: 600px) {
+  .select {
+    padding-right: 10px;
+    background-color: aliceblue;
+  }
+  .input-Field-Div {
+    margin-left: 50px;
+    background-color: "aliceblue";
+    width: 220px;
+    height: 230px;
+  }
+} */
+.Day-view div {
+  margin-top: -120px;
+  width: 250px;
+  background-color: white;
+  height: 400px;
+  margin-left: 60px;
+}
+.Day-count {
+  padding-top: 102px;
+  font-size: 70px;
+  font-weight: bold;
+}
+.Hour-view div {
+  margin-top: -120px;
+  width: 250px;
+  background-color: white;
+  height: 400px;
+  margin-left: 110px;
+}
+.Hour-count {
+  padding-top: 102px;
+  font-size: 70px;
+  font-weight: bold;
+}
+.Minute-view div {
+  margin-top: -120px;
+  width: 250px;
+  background-color: white;
+  height: 400px;
+  margin-left: 100px;
+}
+.Minute-count {
+  padding-top: 102px;
+  font-size: 70px;
+  font-weight: bold;
+}
+.Seconds-view div {
+  margin-top: -120px;
+  width: 250px;
+  background-color: white;
+  height: 400px;
+  margin-left: 100px;
+}
+.seconds-count {
+  padding-top: 102px;
+  font-size: 70px;
+  font-weight: bold;
+}
+@media (max-width: 599px) {
+  .Day-view div {
+    margin-left: 50%;
+    margin-top: 440px;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    background-color: white;
+    height: 400px;
+  }
+
+  .Hour-view div {
+    margin-left: 50%;
+    margin-top: 90px;
+    transform: translate(-50%, -50%);
+    width: 250px;
+    background-color: white;
+    height: 400px;
+  }
+
+  .Minute-view div {
+    margin-left: 50%;
+    margin-top: 90px;
+    transform: translate(-50%, -50%);
+    width: 250px;
+    background-color: white;
+    height: 400px;
+  }
+
+  .Seconds-view div {
+    margin-left: 50%;
+    margin-top: 90px;
+    transform: translate(-50%, -50%);
+    width: 250px;
+    background-color: white;
+    height: 400px;
+  }
+}
+@media (min-width: 738px) and (max-width: 1024px) {
+  .Day-view div {
+    margin-left: 0%;
+    margin-top: 40%;
+    transform: translate(-16%, 60%);
+    width: 240px;
+    height: 300px;
+  }
+  .Day-count {
+    padding-top: 40px;
+    font-weight: bold;
+  }
+  .Hour-view div {
+    margin-left: 0%;
+    margin-top: 10%;
+    transform: translate(-16%, 75%);
+    width: 240px;
+    height: 300px;
+  }
+  .Hour-count {
+    padding-top: 40px;
+    font-weight: bold;
+  }
+  .Minute-view div {
+    margin-left: 0%;
+    margin-top: 10%;
+    transform: translate(-16%, 90%);
+    background-color: white;
+    width: 240px;
+    height: 300px;
+  }
+  .Minute-count {
+    padding-top: 40px;
+
+    font-weight: bold;
+  }
+  .Seconds-view div {
+    margin-left: 0%;
+    margin-top: 10%;
+    transform: translate(-16%, 103%);
+
+    background-color: white;
+    width: 240px;
+    height: 300px;
+  }
+  .seconds-count {
+    padding-top: 40px;
+  }
+}
+.input-Field-Div {
+  padding-top: 20px;
+}
+
+.reset-button {
+  width: 400px;
+  margin-top: 65px;
+  right: 800px;
+  text-align: center;
+  align-items: center;
+  appearance: none;
+  background-image: radial-gradient(
+    100% 100% at 100% 0,
+    #5adaff 0,
+    #5468ff 100%
+  );
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, rgba(58, 65, 111, 0.5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: "JetBrains Mono", monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  text-decoration: none;
+  transition: box-shadow 0.15s, transform 0.15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow, transform;
+  font-size: 18px;
+}
+
+.reset-button:focus {
+  box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+
+.reset-button:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.reset-button:active {
+  box-shadow: #3c4fe0 0 3px 7px inset;
+  transform: translateY(2px);
+}
+@media (max-width: 599px) {
+  .reset-button {
+    display: none;
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 90px;
+    transform: translate(-167%, 21%);
+    width: 14%;
+    right: 0;
+    height: 48px;
+    padding-left: 12px;
+    padding-right: 16px;
+  }
+}
+@media (min-width: 738px) and (max-width: 1024px) {
+  .reset-button {
+    margin-left: 50%;
+    margin-top: 0px;
+    transform: translate(-60%, 741%);
+    width: 44%;
+    right: 0;
+    height: 48px;
+    padding-left: 12px;
+    padding-right: 16px;
+  }
+}
+.count-label{
+ padding-top: 20px;
+  font-size: 20px;
+}

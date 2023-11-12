@@ -1,0 +1,64 @@
+.select {
+  padding-right: 10px;
+  background-color: aliceblue;
+}
+.input-Field-Div {
+  display: flex;
+  margin-left: 5%;
+  background-color: "aliceblue";
+  width: 100%;
+  height: 230px;
+}
+.input-Field-Div select {
+  width: 200px;
+  margin-right: 20px;
+}
+.AmPM-div select {
+  width: 60%;
+}
+
+@media (max-width: 599px) {
+  .select {
+    padding-right: 10px;
+    background-color: aliceblue;
+  }
+  .input-Field-Div {
+    display: inline-block;
+    margin-left: 50%;
+    margin-top: 90px;
+    transform: translate(-67%, -2%);
+    background-color: "aliceblue";
+    width: 300px;
+  }
+  .input-Field-Div select {
+    margin-bottom: 5%;
+    width: 200px;
+    margin-right: 0px;
+    margin-left: 32%;
+  }
+  .AmPM-div select {
+    width: 200px;
+  }
+}
+@media (min-width: 738px) and (max-width: 1024px) {
+  .select {
+    padding-right: 10px;
+    background-color: aliceblue;
+  }
+  .input-Field-Div {
+    display: inline-block;
+    margin-left: 50%;
+    margin-top: 1520px;
+    transform: translate(-50%, 102%);
+    background-color: "aliceblue";
+    width: 70%;
+  }
+  .input-Field-Div select {
+    margin-bottom: 2%;
+    width: 39%;
+    margin-left: 0%;
+  }
+  .AmPM-div select {
+    width: 250px;
+  }
+}

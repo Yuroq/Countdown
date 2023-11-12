@@ -1,0 +1,22 @@
+.alert div {
+  height: 200px;
+  width: 1180px;
+}
+
+.InvalidInput-alert div {
+  height: 200px;
+  width: 1180px;
+}
+
+@media (max-width: 599px) {
+  .alert div {
+    height: 100px;
+    width: 100%;
+    transform: translate(-3%, -5%);
+  }
+  .InvalidInput-alert div {
+    height: 100px;
+    width: 100%;
+    transform: translate(-3%, -5%);
+  }
+}

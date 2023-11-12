@@ -88,9 +88,11 @@ console.log(monthInput)
         })}
       </select>
       </div>
+      <div className="start-btn">
       <button className="btn btn-active btn-secondary" onClick={onClickHandler}>
         Start!
       </button>
+      </div>
     </div>
   );
 }

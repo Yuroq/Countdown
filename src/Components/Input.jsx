@@ -24,7 +24,7 @@ function InputField(props) {
         className="select select-info w-full max-w-xs"
         onChange={(input) => setMonthInput(input.target.value)}
       >
-        <option disabled value>
+         <option disabled selected>
           Select Month
         </option>
         {InputSelectors.months.map((month, index) => {
@@ -35,7 +35,7 @@ function InputField(props) {
         className="select select-info w-full max-w-xs"
         onChange={(input) => setDayInput(input.target.value)}
       >
-        <option disabled value>
+        <option disabled selected>
           Select Day
         </option>
         {InputSelectors.days.map((day, index) => {
@@ -46,7 +46,7 @@ function InputField(props) {
         className="select select-info w-full max-w-xs"
         onChange={(input) => setYearInput(input.target.value)}
       >
-        <option disabled value>
+           <option disabled selected>
           Select Year
         </option>
         {InputSelectors.years.map((year, index) => {
@@ -57,7 +57,7 @@ function InputField(props) {
         className="select select-info w-full max-w-xs"
         onChange={(input) => setHourInput(input.target.value)}
       >
-        <option disabled value>
+           <option disabled selected>
           Select Hour
         </option>
         {InputSelectors.hours.map((hour, index) => {
@@ -68,7 +68,7 @@ function InputField(props) {
         className="select select-info w-full max-w-xs"
         onChange={(input) => setMinuteInput(input.target.value)}
       >
-        <option disabled value>
+         <option disabled selected>
           Select Minute
         </option>
         {InputSelectors.minutes.map((minute, index) => {
@@ -80,7 +80,7 @@ function InputField(props) {
           className="select select-info w-full max-w-xs"
           onChange={(input) => setAmPm(input.target.value)}
         >
-          <option disabled value>
+       <option disabled selected>
             Time
           </option>
           {InputSelectors.time.map((time, index) => {

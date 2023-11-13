@@ -91,7 +91,7 @@
   .Day-view div {
     margin-left: 50%;
     margin-top: 440px;
-    transform: translate(-50%, -50%);
+    transform: translate(-54%, -50%);
     width: 250px;
     background-color: white;
     height: 400px;
@@ -100,7 +100,7 @@
   .Hour-view div {
     margin-left: 50%;
     margin-top: 90px;
-    transform: translate(-50%, -50%);
+    transform: translate(-54%, -50%);
     width: 250px;
     background-color: white;
     height: 400px;
@@ -109,7 +109,7 @@
   .Minute-view div {
     margin-left: 50%;
     margin-top: 90px;
-    transform: translate(-50%, -50%);
+    transform: translate(-54%, -50%);
     width: 250px;
     background-color: white;
     height: 400px;
@@ -118,7 +118,7 @@
   .Seconds-view div {
     margin-left: 50%;
     margin-top: 90px;
-    transform: translate(-50%, -50%);
+    transform: translate(-54%, -50%);
     width: 250px;
     background-color: white;
     height: 400px;
